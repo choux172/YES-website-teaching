@@ -1,3 +1,4 @@
+TESTER1= document.getElementById('tester');
 var red = {
     x: ['Blue (470)', 'Cyan (525)', 'Green (560)', 'Yellow (585)', 'Orange (600)', 'Red (645)', 'Deep Red (700)', 'IR1 (735)', 'IR2 (810)', 'IR3 (880)', 'IR4 (940)'],
     y: [9.577922078, 8.873239437, 12.67409471, 31.18741059, 47.73722628, 74.13533835, 87.82343988, 88.0910683, 97.6340694, 103.2258065, 105.8479532],
@@ -23,3 +24,4 @@ var form = {
     title: 'Reflectance Percentage'
   }
 };
+Plotly.newPlot(TESTER1, data, form)
